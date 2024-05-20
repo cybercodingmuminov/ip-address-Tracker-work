@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body, input, button {
+  font-family: rubik;
+}
+
+.header-wrapper {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-image: url(../img/header-bg.png);
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.2857142985px;
+  color: #FFFFFF;
+  margin-bottom: 31px;
+}
+header .header-btn {
+  width: 100%;
+  max-width: 555px;
+  height: 58px;
+  background: white;
+  display: flex;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+header .header-btn input {
+  width: 100%;
+  max-width: 555px;
+  outline: none;
+  background: none;
+  border: 0;
+  color: rgb(44, 44, 44);
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  cursor: pointer;
+  width: 299px;
+  height: 21px;
+  padding-top: 18px;
+  padding-left: 24px;
+}
+header .header-btn input::-moz-placeholder {
+  opacity: 50%;
+  color: rgb(44, 44, 44);
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+header .header-btn input::placeholder {
+  opacity: 50%;
+  color: rgb(44, 44, 44);
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+header .header-btn button {
+  width: 58px;
+  height: 58px;
+  border-radius: 0px 15px 15px 0px;
+  border: 0;
+  background: #000000;
+  cursor: pointer;
+}
+header .header-btn button:hover {
+  background: #3F3F3F;
+  transition: 0.5s;
+}
+header .about-wrapper {
+  max-width: 1046px;
+  min-height: 160px;
+  padding: 0 46px;
+  background: #FFFFFF;
+  transform: translateY(50%);
+  border-radius: 10px;
+  box-shadow: 0px 50px 50px -25px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 32px;
+}
+header .about-wrapper .info-list {
+  width: 213px;
+  height: 57px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
+}
+header .about-wrapper .info-list p {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.22px;
+  letter-spacing: 1.75px;
+  color: #2C2C2C;
+  opacity: 49.87%;
+  margin: 0;
+  padding: 0;
+}
+header .about-wrapper .info-list h4 {
+  color: rgb(44, 44, 44);
+  font-family: Rubik;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.23px;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+header .about-wrapper hr {
+  width: 1px;
+  height: 75px;
+  opacity: 15%;
+  background: #000000;
+  border: 0;
+  margin-top: 38px;
+  margin-right: 37px;
+}
+
+.section-wrapper {
+  height: 520px;
+  background-image: url(../img/Maps.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1160px) {
+  hr {
+    display: none;
+  }
+}
+@media (max-width: 945px) {
+  .about-wrapper {
+    transform: none;
+    margin-top: 48px;
+  }
+}
+@media (max-width: 520px) {
+  .header-btn {
+    width: 327px;
+    height: 58px;
+  }
+  .header-btn input {
+    width: 123px;
+    height: 21px;
+  }
+  .about-wrapper {
+    max-width: 327px;
+    min-height: 294px;
+    transform: none;
+    margin-top: 24px;
+    padding: 25px 24px;
+  }
+  .about-wrapper .info-list {
+    width: 279px;
+    height: 43px;
+  }
+  .about-wrapper .info-list h4 {
+    width: 279px;
+    height: 24px;
+    text-align: center;
+  }
+  .about-wrapper .info-list p {
+    text-align: center;
+  }
+}
+@media (max-width: 330px) {
+  .header-btn {
+    width: 300px;
+  }
+  .header-btn input {
+    width: 123px;
+    height: 21px;
+  }
+  .about-wrapper {
+    margin-top: -70px;
+  }
+  .about-wrapper .info-list {
+    width: 279px;
+    height: 43px;
+    padding: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
